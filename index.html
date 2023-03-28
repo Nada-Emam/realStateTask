@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Real Estate</title>
+</head>
+<body>
+<!-- --------------------Section 1----------------------- -->
+    <div class="head">
+        <!-- --------Nav Bar--------- -->
+        <div class="nav">
+            <div class="navLeft">
+                <div><h3>M</h3></div>
+                <div> <h4>Mulih</h4></div>
+            </div>
+            <div class="navMiddle">
+                <a href="#" id="navActive">Home</a>
+                <a href="#">Property</a>
+                <a href="#">About</a>
+                <a href="#">Service</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="navSign">
+                <button id="signIn"> Sign In </button>
+                <button id="logIn"> Login </button>
+            </div>
+        </div>
+        <!-- --------Banner------- -->
+        <div class="mainBanner">
+            <div class="bannerImg">
+            </div>
+
+            <div class="bannerText">
+                <div id="title1">
+                    <a href="#"> Real Estate</a>
+                </div>
+                <h2 id="title2">Let's Hunt For Your Dream Residence</h2>
+
+                <p id="title3">Explore our range of beautiful properties with the addition of separate accommodation suitable for you.</p>
+
+                <div id="mainForm">
+                    <div id="mainFormButtons">
+                        <div class="mainFormButtonsActive" onclick="selectType('buy', this)">Buy</div>
+                        <div onclick="selectType('rent', this)">Rent</div>
+                    </div>
+                    <div>
+                        <form action="">
+                            <div>
+                                <label for="location">location</label> <br/>
+                                <select name="location" id="">
+                                    <option value="">Mansoura, Torrel</option>
+                                    <option value="">Mansoura, ElGomhoria St.</option>
+                                    <option value="">Mansoura, Talkha</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label for="type">Type</label> <br/>
+                                <select name="type" id="">
+                                    <option value="">Home</option>
+                                    <option value="">Work Space</option>
+                                    <option value="">other</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label for="price">Price Range</label> <br />
+                                <select name="price" id="">
+                                    <option value="">200$ - 300$</option>
+                                    <option value="">300$ - 500$</option>
+                                    <option value="">500$ - 700$</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <input type="hidden" name="selectType" value="buy">
+                                <input id="search" type="submit" value="Search">
+                            </div>
+                        </form>
+                    </div>
+                </div>  
+                
+            </div>
+        </div>
+    </div>    
+
+<!-- -----------------------Section 2----------------------- -->
+
+    <div class="recommendation">
+        <div id="title6"><a href="#">DISCOVER</a></div>
+        <h3>Best Recomendation</h3>
+        
+        <div id="title8">
+            <p>Discover our exclusive selection of the finest one-of-a-kind luxury properties architectural masterpieces.</p>
+            <div>
+                <a href="#">Learn More</a>
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+        </div>
+        <div  class="threeRectangles">
+            <div class="rectangle">
+                <div><img src="img/Rectangle 221.png" alt=""></div>
+                <h5> Perum griya asri</h5>
+                <span>Bogor, Jawa Barat</span>
+                <div class="rectPrice">
+                    <h4>$25,000</h4>
+                    <h3><span>360m2</span> Living Area</h3>
+                </div>
+                <button>Send Inquiry</button>
+            </div>
+            <div class="rectangle">
+                <div><img src="img/Rectangle 227.png" alt=""></div>
+                <h5>Perum kencana asri</h5>
+                <span>Bogor, Jawa Barat</span>
+                <div class="rectPrice">
+                    <h4>$23,000</h4>
+                    <h3><span>360m2</span> Living Area</h3>
+                </div>
+                <button id="btActive">Send Inquiry</button>
+            </div>
+            <div class="rectangle">
+                <div><img src="img/Rectangle 229.png" alt=""></div>
+                <h5> Perum rakjel elit</h5>
+                <span>Bogor, Jawa Barat</span>
+                <div class="rectPrice">
+                    <h4>$40,000</h4>
+                    <h3><span>360m2</span> Living Area</h3>
+                </div>
+                <button>Send Inquiry</button>
+            </div>
+        </div>
+
+    </div>
+
+<!-- ---------------------- Section 3 ---------------------- -->
+
+    <div class="section3">
+        <div id="title7"><a href="#">OUR ADVANTE</a></div>
+        <h2>Giving you peace of mind</h2>
+        <div class="block">
+            <div class="block-section">
+                <i class="fa-sharp fa-solid fa-heart"></i>
+                <h3>Comfortable</h3>
+                <p>Enjoy lifestyle amenities designed to provide every homeowners modern comfort, a stone's throw away from schools, churches, and hospitals.</p>
+            </div>
+            <div class="block-section">
+                <i class="fa-solid fa-shield"></i>
+                <h3>Extra security</h3>
+                <p>You can connect with potential tenants without having to share your phone number. We also require all users to register to validate their legitimacy.</p>
+            </div>
+            <div class="block-section">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <h3>Luxury</h3>
+                <p>Find out how we provide the highest standard of professional property management to give you all the benefits of property.</p>
+            </div>
+        </div>
+        <div class="block">
+            <div class="block-section">
+                <i class="fa-solid fa-ticket"></i>
+                <h3>Best price</h3>
+                <p>Not sure what you should be charging for your property? Let us do the numbers for you—contact us today for a free rental appraisal on your home.</p>
+            </div>
+            <div class="block-section">
+                <i class="fa-solid fa-location-dot"></i>
+                <h3>Strategic location</h3>
+                <p>located in the city center close to the shopping center. Very good for areas surrounded by international education centers, start-up office centers.</p>
+            </div>
+            <div class="block-section">
+                <i class="fas fa-chart-pie"></i>            
+                <h3>Efficient</h3>
+                <p>Schedule visits to multiple properties at once in one day without having to call them one by one. Check everything and find the best properties for rent</p>
+            </div>
+        </div>
+    </div>
+
+<!-- -------------------- Section 4 ---------------------- -->
+
+    <!-- <div class="section4">
+        <div>
+            <div><img src="img/Rectangle 230.png" alt=""></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div>
+            <div><a href="#">ABOUT US</a></div>
+            <h3>How much is your property worth now?</h3>
+            <p>We have built our reputation as true local area experts. We have gained more knowledge about buyer interests, our neighborhood and the market than any other brand because we live locally and work for local people.</p>
+            <div><a href="#">Learn More</a></div>
+        </div>
+    </div> -->
+
+<!-- -----------------------Section 5---------------------- -->
+
+    <div class="aboutUs">
+        <div id="title4"><a href="#">CUSTOMER TESTIMONIAL</a></div>
+            <div id="title5">
+                <h2>Peopel say about us?</h2>
+                <div>
+                   <a href="#">Learn More</a>
+                   <i class="fa-solid fa-angle-right"></i>
+                   <!-- <i class="fa-sharp fa-solid fa-arrow-right"></i> -->
+                </div>
+            </div>
+            
+            <div class="threeSections">
+                <div class="sec">
+                    <div class="icon">
+                        <i class="fa-sharp fa-solid fa-quote-left"></i>
+                    </div>
+                    <h3>It proved to be exactly the kind of home we wanted.</h3>
+                    <p>We wish to express our thanks for your hard work in finding us a temporary home, which proved to be exactly what we wanted.</p>
+                    <div class="profile">
+                        <div><img src="img/Ellipse 01.png" alt=""></div>
+                        <div class="profileText">
+                            <h3>Jaydon Aminoff</h3>
+                            <span>UX Designer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sec">
+                    <div class="icon">
+                        <i class="fa-sharp fa-solid fa-quote-left"></i>
+                    </div>
+                    <h3>Nobody knows Portland and the peninsula better than David.</h3>
+                    <p>My wife and I had a dream of downsizing from our house in Cape Elizabeth into a small condo closer to where we work and play in Portland.</p>
+                    <div class="profile">
+                        <div><img src="img/Ellipse 02.png" alt=""></div>
+                        <div class="profileText">
+                            <h3>Alfredo Donin</h3>
+                            <span>UI Designer</span>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="sec">
+                    <div class="icon">
+                        <i class="fa-sharp fa-solid fa-quote-left"></i>
+                    </div>
+                    <h3>He keeps his client’s best interests in sharp focus.</h3>
+                    <p>After working with David to sell my home in 2013, I was convinced that he’s the only realtor I’ll ever need.</p>
+                    <div class="profile">
+                        <div><img src="img/Ellipse 03.png" alt=""></div>
+                        <div class="profileText">
+                            <h3>Makenna Korsgaard</h3>
+                            <span>UX Researcher</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+<!-- -----------------------Section 6---------------------- -->
+
+    <div class="footer">
+        <div id="foot1">
+            <div class="logo">
+                <div><h3>M</h3></div>
+                <div> <h4>Mulih</h4></div>
+            </div>
+            <p>We have built our reputation as true local area experts.</p>
+            <h3>Newsletter</h3>
+            <div id="email">
+                <input type="text" name="email" placeholder="input your E-mail">
+                <button>send</button>
+            </div>
+        </div>
+        <div id="foot2">
+            <h3>Service</h3>
+            <a href="#">About Us</a>
+            <a href="#">Careers</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Privacy & Policy</a>
+        </div>
+        <div id="foot3">
+            <h3>Community</h3>
+            <a href="#">Find Agents</a>
+            <a href="#">Lifestyle</a>
+            <a href="#">Legal Notice</a>
+        </div>
+        <div id="foot4">
+            <h3>Follow Us On</h3>
+            <div>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+        </div>
+    </div>
+
+<!-- ------------------------ End ------------------------ -->
+</body>
+</html>

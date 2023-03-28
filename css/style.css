@@ -1,0 +1,701 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css";
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700');
+
+*{
+    font-family: poppins;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+/* --------------------Section 1----------------------- */
+.head {
+    background-color: #f5f5f5; 
+    width: 100%; 
+    margin-bottom: -7px;}
+
+/* ----------Nav Bar---------- */
+.nav{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    z-index: 3;
+}
+.navLeft{
+    width: 100px;
+    height: 34px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 60px;
+    margin-top: 10px;
+}
+
+.navLeft h3{
+    background-color: #4BA586;
+    color: #FEFEFF;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 27px;
+    margin-right: 5px;
+    
+}
+
+.navLeft h4{
+    font-size: 18px;
+    font-weight: 500;
+    color: #4BA586;
+}
+
+.navMiddle {
+    align-items: center;
+    margin-left: 300px ;
+    margin-top: 10px;
+}
+
+.navMiddle a{
+    font-size: 16px;
+    font-weight: 400;
+    color: #8E8E8E;
+    line-height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+/* ======================== */
+/* .navMiddle a #navActive::after{
+    white-space: pre;
+    font-size: 55px;
+    content: "\A.";
+    line-height: 1px;
+} */
+/* ======================== */
+
+.navSign{
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+#signIn {
+    background-color: #f5f5f5;
+    border: none;
+    width: 150px;
+    height: 40px;
+    color: #4BA586;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#logIn {
+    background-color: #4BA586;
+    border: none;
+    color: white;
+    font-size: 16px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+}
+
+/* -------------------Banner------------------- */
+.mainBanner {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: calc(100% - 50px);
+    height: 95vh;
+}
+
+/* ---------------- Bnner Image -------------- */
+.bannerImg {
+    position: absolute;
+    right: -10px;
+    width: 50%;
+    height: 98%;
+    background-image: url(../img/bernard-hermant-KqOLr8OiQLU-unsplash\ 1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* --------- Banner Text ---------- */
+
+#title1 {
+    width:100px;
+    height:30px;
+    color: #4BA586;
+    margin-left: 65px;
+    margin-top: 100px;
+    background-color: #F8F9FE;
+
+}
+
+#title1 a {
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #4BA586;
+    text-align: center;
+    padding-left: 12px;
+    padding-top: 20px;
+}
+
+#title2 {
+    margin-left: 65px;
+    width: 500px;
+    color: #1F2744;
+    font-size: 34px;
+}
+
+#title3 {
+    width: 500px;
+    margin-left: 65px;
+    text-align: left;
+    color: #73788C;
+}
+
+
+/* ----------------------Form-------------------------- */
+#mainForm {
+    position: absolute;
+    top: 60%;
+    margin-left: 65px;
+}
+
+form div {
+    padding-left: 10px;
+}
+
+
+form select{
+    background-color: white;
+    color:#8E8E8E;
+    border : solid #F5F5F5 1px;
+
+}
+
+#mainForm form {
+    background-color: white;
+    width: 600px;
+    height: 140px;
+}
+
+#mainFormButtons,
+#mainForm form {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#mainFormButtons div {
+    padding: 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.mainFormButtonsActive {
+    background-color: white;
+    font-size: 24px;
+    color: #4BA586;
+}
+
+#search {
+    background-color: #4BA586;
+    color: white;
+    width: 100px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+/* -----------------------Section 2-------------------------- */
+.recommendation {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fefcfc;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+
+#title6 {
+    width: 100px;
+    height: 30px;
+    color: #4BA586;
+    margin-left: 65px;
+    margin-top: 40px;
+    background-color: #F8F9FE;
+}
+
+#title6 a {
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #4BA586;
+    text-align: center;
+    padding-left: 12px;
+    padding-top: 30px;
+    
+}
+
+.recommendation h3{
+    margin-left: 65px;
+    color: #054457;
+    font-size: 28px;
+    
+}
+
+#title8 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 65px;
+    margin-bottom: 20px;
+}
+
+#title8 p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#73788C;
+    width: 48%;
+}
+
+
+#title8 a {
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #4BA586;
+    text-align: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: 400px;
+
+}
+
+#title8 i {
+    background-color: #4BA586;
+    color: white;
+    width: 18px;
+    height: 18px;
+    font-size: 12px;
+    line-height: 16px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.threeRectangles {
+    display: flex;
+    flex-direction: row;
+    margin-left: 65px;
+    margin-bottom: 20px;
+}
+
+.rectangle {
+    border: solid 1px #e1dede;
+    padding: 4px;
+    margin-right: 85px;
+}
+
+.rectangle img{
+    margin : 4px 4px 0px 4px;
+}
+
+.rectangle h5{
+    font-size: 14px;
+    font-weight: 600;
+    color: #1F2744;
+    padding-left: 4px;
+    text-align: left;
+
+}
+
+
+.rectangle span{
+    padding-left: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #A6A6A6;
+
+}
+
+.rectPrice {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2px;
+}
+
+.rectPrice h4{
+    padding-right: 5px;
+    color: #4BA586;
+    font-size: 14px;
+}
+
+.rectPrice h3{
+    background-color: #e1dede;
+    font-size: 12px;
+    font-weight: 400;
+    color : #A6A6A6;
+    padding: 2px;
+}
+
+.rectPrice h3 span {
+    font-size: 12px;
+    font-weight: 400;
+    color: #1F2744; 
+}
+
+.rectangle button {
+    width: 100%;
+    height:40px;
+    border-radius: 0%;
+    border: solid 1px  #4BA586;
+    background-color: #F5F5F5;
+    font-size: 14px;
+    color: #4BA586;
+    font-weight: 500;
+}
+
+#btActive {
+    background-color: #4BA586;
+    color: #F5F5F5;
+}
+/* ---------------------Section 3--------------------- */
+.section3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 680px;
+    background-color: #f5f5f5;
+}
+
+#title7 {
+    width: 120px;
+    height: 30px;
+    margin-left: 65px;
+    margin-top: 40px;
+    background-color: #F8F9FE;
+}
+    
+#title7 a {
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #4BA586;
+    text-align: center;
+    padding-left: 12px;
+    padding-top: 30px;
+        
+}
+
+.section3 h2 {
+    margin-left: 65px;
+    font-size: 28px;
+    color: #054457;
+    margin-bottom: 40px;
+
+}
+
+.block {
+    display: flex;
+    flex-direction: row;
+    margin-left: 65px;
+}
+
+.block-section {
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.block-section i {
+    /* width: 48px;
+    height: 30px; */
+    font-size: 28px;
+    color: #69B99D;
+    padding-left: 5px;
+
+}
+
+.block-section h3 {
+    font-size: 18px;
+    color: #054457;
+    font-weight: 500;
+
+}
+
+.block-section p {
+    font-size: 16;
+    font-weight: 400;
+    color: #73788C;
+}
+
+
+/* ---------------------Section 4--------------------- */
+
+.section4 {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* ---------------------Section 5--------------------- */
+
+.aboutUs{
+    width: 100%;
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fefcfc; 
+    margin-top: -1px;
+    margin-bottom: -20px;
+}
+
+#title4 {
+    width:200px;
+    height:30px;
+    color: #4BA586;
+    margin-left: 65px;
+    margin-top: 40px;
+    background-color: white;
+
+}
+
+#title4 a {
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #4BA586;
+    text-align: center;
+    padding-left: 12px;
+    padding-top: 30px;
+}
+
+#title5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#title5 h2{
+    margin-left: 65px;
+    width: 500px;
+    color: #1F2744;
+    font-size: 28px;
+}
+
+#title5 a {
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #4BA586;
+    text-align: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: 600px;
+
+}
+
+#title5 i {
+    background-color: #4BA586;
+    color: white;
+    width: 18px;
+    height: 18px;
+    font-size: 12px;
+    line-height: 16px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.threeSections {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 65px;
+    margin-top: 20px;
+}
+
+.sec {
+    width : 380px;
+    border: solid #e1dede 1px;
+    margin-right: 60px;
+}
+
+.sec .icon {
+    color:#e1dede;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.sec h3{
+    font-size: 18px;
+    color: #1F2744;
+    text-align: left;
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+.sec p {
+    font-size: 14px;
+    color: #1F2744;
+    text-align: left;
+    padding: 10px;
+    font-weight: 300; 
+}
+
+.profile {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.profile img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 25px;
+}
+
+.profileText h3 {
+    font-size: 14px;
+    color: #0B2E29;
+    line-height: 15px;    
+}
+
+.profileText span {
+    font-size: 12px;
+    color: #73788C;
+    margin-left: 10px;
+}
+
+/* --------------------Section 6----------------------- */
+
+.footer{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    background-color: #f5f5f5;
+    margin-top: 20px;
+}
+
+.footer h3 {
+    font-size: 18px;
+    color: #0B2E29;
+    font-weight: 500;
+}
+
+#foot1 {
+    margin-left: 65px;
+    margin-right: 30px;
+    width: 25%;
+}
+
+.logo{
+    width: 100px;
+    height: 34px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.logo h3{
+    background-color: #4BA586;
+    color: #FEFEFF;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 27px;
+    margin-right: 5px;
+    
+}
+
+.logo h4{
+    font-size: 18px;
+    font-weight: 500;
+    color: #4BA586;
+}
+
+#foot1 p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #1F2744;
+}
+
+#email input{
+    width: 210px ;
+}
+
+#email button {
+    width: 50px;
+    background-color: #4BA586;
+    color:white
+}
+
+#foot2 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 80px;
+}
+
+#foot2 a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #73788C;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+#foot3 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 80px;
+}
+
+#foot3 a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #73788C;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+#foot4 {
+    width: 25%;
+    margin-left: 60px;
+}
+#foot4 div{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+#foot4 i {
+    color: #4BA586;
+    font-size: 18px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/* ------------------ Responsive Design --------------------- */
+
+@media only screen and (max-width: 900px) {
+    
+}
+
+
